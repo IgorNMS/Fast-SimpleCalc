@@ -1,0 +1,2 @@
+/home/igor/Projects/Random/Calculator/Simple&FastCalc/bin/Release/net9.0/linux-x64/publish/Simple&FastCalc.pdb
+/home/igor/Projects/Random/Calculator/Simple&FastCalc/bin/Release/net9.0/linux-x64/publish/Simple&FastCalc

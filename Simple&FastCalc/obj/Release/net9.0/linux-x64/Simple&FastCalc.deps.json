@@ -1,0 +1,88 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0/linux-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {},
+    ".NETCoreApp,Version=v9.0/linux-x64": {
+      "Simple&FastCalc/1.0.0": {
+        "dependencies": {
+          "Cocona.Lite": "2.2.0",
+          "Microsoft.NET.ILLink.Tasks": "9.0.8"
+        },
+        "runtime": {
+          "Simple&FastCalc.dll": {}
+        }
+      },
+      "Cocona.Core/2.2.0": {
+        "runtime": {
+          "lib/net6.0/Cocona.Core.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        },
+        "resources": {
+          "lib/net6.0/ja-JP/Cocona.Core.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net6.0/ko-KR/Cocona.Core.resources.dll": {
+            "locale": "ko-KR"
+          },
+          "lib/net6.0/zh-CN/Cocona.Core.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Cocona.Lite/2.2.0": {
+        "dependencies": {
+          "Cocona.Core": "2.2.0"
+        },
+        "runtime": {
+          "lib/net6.0/Cocona.Lite.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        },
+        "resources": {
+          "lib/net6.0/ja-JP/Cocona.Lite.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net6.0/ko-KR/Cocona.Lite.resources.dll": {
+            "locale": "ko-KR"
+          }
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/9.0.8": {}
+    }
+  },
+  "libraries": {
+    "Simple&FastCalc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cocona.Core/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WvkfA2XCHrlgggiIG7PCxX4RSbNAHSmIHl4BcxcphOTwX5ZuQmiGm13ooeD6ZwGet4Bq+xzk+jfz0bmgjaXfUQ==",
+      "path": "cocona.core/2.2.0",
+      "hashPath": "cocona.core.2.2.0.nupkg.sha512"
+    },
+    "Cocona.Lite/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xKijACmJXU4jXMzaUlzxK0nu5W/9FdGm+r7G17RBxXNGcaGxQkGgtCHSg4iRC7USdcfZyym6sRUaEq0yqTcJBA==",
+      "path": "cocona.lite/2.2.0",
+      "hashPath": "cocona.lite.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.NET.ILLink.Tasks/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rd1CbIsMtVPtZNTIVD6Xydue//klYOOQIDpRgu3BHtv17AlpRs74/6QFbcYgMm/jL+naVU2T3OFLxVSLV5lQLQ==",
+      "path": "microsoft.net.illink.tasks/9.0.8",
+      "hashPath": "microsoft.net.illink.tasks.9.0.8.nupkg.sha512"
+    }
+  }
+}

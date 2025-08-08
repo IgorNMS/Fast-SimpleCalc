@@ -1,11 +1,230 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "Cocona.Core/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Cocona.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Cocona.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net6.0/ja-JP/Cocona.Core.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net6.0/ko-KR/Cocona.Core.resources.dll": {
+            "locale": "ko-KR"
+          },
+          "lib/net6.0/zh-CN/Cocona.Core.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Cocona.Lite/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Cocona.Core": "2.2.0"
+        },
+        "compile": {
+          "lib/net6.0/Cocona.Lite.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Cocona.Lite.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net6.0/ja-JP/Cocona.Lite.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net6.0/ko-KR/Cocona.Lite.resources.dll": {
+            "locale": "ko-KR"
+          }
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/9.0.8": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      }
+    },
+    "net9.0/linux-x64": {
+      "Cocona.Core/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Cocona.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Cocona.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net6.0/ja-JP/Cocona.Core.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net6.0/ko-KR/Cocona.Core.resources.dll": {
+            "locale": "ko-KR"
+          },
+          "lib/net6.0/zh-CN/Cocona.Core.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Cocona.Lite/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Cocona.Core": "2.2.0"
+        },
+        "compile": {
+          "lib/net6.0/Cocona.Lite.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Cocona.Lite.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net6.0/ja-JP/Cocona.Lite.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net6.0/ko-KR/Cocona.Lite.resources.dll": {
+            "locale": "ko-KR"
+          }
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/9.0.8": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Cocona.Core/2.2.0": {
+      "sha512": "WvkfA2XCHrlgggiIG7PCxX4RSbNAHSmIHl4BcxcphOTwX5ZuQmiGm13ooeD6ZwGet4Bq+xzk+jfz0bmgjaXfUQ==",
+      "type": "package",
+      "path": "cocona.core/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "cocona.core.2.2.0.nupkg.sha512",
+        "cocona.core.nuspec",
+        "icon.png",
+        "lib/net6.0/Cocona.Core.dll",
+        "lib/net6.0/Cocona.Core.xml",
+        "lib/net6.0/ja-JP/Cocona.Core.resources.dll",
+        "lib/net6.0/ko-KR/Cocona.Core.resources.dll",
+        "lib/net6.0/zh-CN/Cocona.Core.resources.dll",
+        "lib/netstandard2.0/Cocona.Core.dll",
+        "lib/netstandard2.0/Cocona.Core.xml",
+        "lib/netstandard2.0/ja-JP/Cocona.Core.resources.dll",
+        "lib/netstandard2.0/ko-KR/Cocona.Core.resources.dll",
+        "lib/netstandard2.0/zh-CN/Cocona.Core.resources.dll",
+        "lib/netstandard2.1/Cocona.Core.dll",
+        "lib/netstandard2.1/Cocona.Core.xml",
+        "lib/netstandard2.1/ja-JP/Cocona.Core.resources.dll",
+        "lib/netstandard2.1/ko-KR/Cocona.Core.resources.dll",
+        "lib/netstandard2.1/zh-CN/Cocona.Core.resources.dll"
+      ]
+    },
+    "Cocona.Lite/2.2.0": {
+      "sha512": "xKijACmJXU4jXMzaUlzxK0nu5W/9FdGm+r7G17RBxXNGcaGxQkGgtCHSg4iRC7USdcfZyym6sRUaEq0yqTcJBA==",
+      "type": "package",
+      "path": "cocona.lite/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "cocona.lite.2.2.0.nupkg.sha512",
+        "cocona.lite.nuspec",
+        "icon.png",
+        "lib/net6.0/Cocona.Lite.dll",
+        "lib/net6.0/Cocona.Lite.xml",
+        "lib/net6.0/ja-JP/Cocona.Lite.resources.dll",
+        "lib/net6.0/ko-KR/Cocona.Lite.resources.dll",
+        "lib/netstandard2.0/Cocona.Lite.dll",
+        "lib/netstandard2.0/Cocona.Lite.xml",
+        "lib/netstandard2.0/ja-JP/Cocona.Lite.resources.dll",
+        "lib/netstandard2.0/ko-KR/Cocona.Lite.resources.dll",
+        "lib/netstandard2.1/Cocona.Lite.dll",
+        "lib/netstandard2.1/Cocona.Lite.xml",
+        "lib/netstandard2.1/ja-JP/Cocona.Lite.resources.dll",
+        "lib/netstandard2.1/ko-KR/Cocona.Lite.resources.dll"
+      ]
+    },
+    "Microsoft.NET.ILLink.Tasks/9.0.8": {
+      "sha512": "rd1CbIsMtVPtZNTIVD6Xydue//klYOOQIDpRgu3BHtv17AlpRs74/6QFbcYgMm/jL+naVU2T3OFLxVSLV5lQLQ==",
+      "type": "package",
+      "path": "microsoft.net.illink.tasks/9.0.8",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "Sdk/Sdk.props",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/cs/ILLink.CodeFixProvider.dll",
+        "analyzers/dotnet/cs/ILLink.RoslynAnalyzer.dll",
+        "build/Microsoft.NET.ILLink.Analyzers.props",
+        "build/Microsoft.NET.ILLink.Tasks.props",
+        "build/Microsoft.NET.ILLink.targets",
+        "microsoft.net.illink.tasks.9.0.8.nupkg.sha512",
+        "microsoft.net.illink.tasks.nuspec",
+        "tools/net472/ILLink.Tasks.dll",
+        "tools/net472/ILLink.Tasks.dll.config",
+        "tools/net472/Mono.Cecil.Mdb.dll",
+        "tools/net472/Mono.Cecil.Pdb.dll",
+        "tools/net472/Mono.Cecil.Rocks.dll",
+        "tools/net472/Mono.Cecil.dll",
+        "tools/net472/Sdk/Sdk.props",
+        "tools/net472/System.Buffers.dll",
+        "tools/net472/System.Collections.Immutable.dll",
+        "tools/net472/System.Memory.dll",
+        "tools/net472/System.Numerics.Vectors.dll",
+        "tools/net472/System.Reflection.Metadata.dll",
+        "tools/net472/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net472/build/Microsoft.NET.ILLink.Analyzers.props",
+        "tools/net472/build/Microsoft.NET.ILLink.Tasks.props",
+        "tools/net472/build/Microsoft.NET.ILLink.targets",
+        "tools/net9.0/ILLink.Tasks.deps.json",
+        "tools/net9.0/ILLink.Tasks.dll",
+        "tools/net9.0/Mono.Cecil.Mdb.dll",
+        "tools/net9.0/Mono.Cecil.Pdb.dll",
+        "tools/net9.0/Mono.Cecil.Rocks.dll",
+        "tools/net9.0/Mono.Cecil.dll",
+        "tools/net9.0/Sdk/Sdk.props",
+        "tools/net9.0/build/Microsoft.NET.ILLink.Analyzers.props",
+        "tools/net9.0/build/Microsoft.NET.ILLink.Tasks.props",
+        "tools/net9.0/build/Microsoft.NET.ILLink.targets",
+        "tools/net9.0/illink.deps.json",
+        "tools/net9.0/illink.dll",
+        "tools/net9.0/illink.runtimeconfig.json",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "Cocona.Lite >= 2.2.0",
+      "Microsoft.NET.ILLink.Tasks >= 9.0.8"
+    ]
   },
   "packageFolders": {
     "/home/igor/.nuget/packages/": {}
@@ -49,6 +268,18 @@
     "frameworks": {
       "net9.0": {
         "targetAlias": "net9.0",
+        "dependencies": {
+          "Cocona.Lite": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
+          "Microsoft.NET.ILLink.Tasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.0.8, )",
+            "autoReferenced": true
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -66,6 +297,11 @@
           }
         },
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "linux-x64": {
+        "#import": []
       }
     }
   }

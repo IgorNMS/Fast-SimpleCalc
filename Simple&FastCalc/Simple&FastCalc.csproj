@@ -6,6 +6,10 @@
     <RootNamespace>Simple_FastCalc</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PublishSingleFile>true</PublishSingleFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Cocona.Lite" Version="2.2.0" />
+  </ItemGroup>
 </Project>

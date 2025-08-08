@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "rbZM9u3UpLw=",
+  "dgSpecHash": "4qlq+YeCvGY=",
   "success": true,
   "projectFilePath": "/home/igor/Projects/Random/Calculator/Simple&FastCalc/Simple&FastCalc.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/igor/.nuget/packages/cocona.core/2.2.0/cocona.core.2.2.0.nupkg.sha512",
+    "/home/igor/.nuget/packages/cocona.lite/2.2.0/cocona.lite.2.2.0.nupkg.sha512",
+    "/home/igor/.nuget/packages/microsoft.net.illink.tasks/9.0.8/microsoft.net.illink.tasks.9.0.8.nupkg.sha512"
+  ],
   "logs": []
 }
