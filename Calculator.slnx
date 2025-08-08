@@ -4,5 +4,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Simple&amp;FastCalc/Simple&amp;FastCalc.csproj" />
+  <Project Path="Simple&amp;FastCalc/SCalc.csproj" />
 </Solution>

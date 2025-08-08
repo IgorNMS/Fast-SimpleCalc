@@ -232,9 +232,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/igor/Projects/Random/Calculator/Simple&FastCalc/Simple&FastCalc.csproj",
-      "projectName": "Simple&FastCalc",
-      "projectPath": "/home/igor/Projects/Random/Calculator/Simple&FastCalc/Simple&FastCalc.csproj",
+      "projectUniqueName": "/home/igor/Projects/Random/Calculator/Simple&FastCalc/SCalc.csproj",
+      "projectName": "SCalc",
+      "projectPath": "/home/igor/Projects/Random/Calculator/Simple&FastCalc/SCalc.csproj",
       "packagesPath": "/home/igor/.nuget/packages/",
       "outputPath": "/home/igor/Projects/Random/Calculator/Simple&FastCalc/obj/",
       "projectStyle": "PackageReference",
