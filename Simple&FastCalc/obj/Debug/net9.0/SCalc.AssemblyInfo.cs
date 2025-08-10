@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SCalc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d195fd65254ea6d39ed6722617da0aa8c19bbe6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2601e258dec689fa4b0b981f20faf69a64f1da9")]
 [assembly: System.Reflection.AssemblyProductAttribute("SCalc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SCalc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
